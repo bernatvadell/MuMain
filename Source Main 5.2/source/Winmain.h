@@ -80,6 +80,7 @@ extern void CheckHack(void);
 extern DWORD GetCheckSum(WORD wKey);
 extern void StopMp3(char* Name, BOOL bEnforce = false);
 extern void PlayMp3(char* Name, BOOL bEnforce = false);
+extern void SetVolumeLevel(int nVolume);
 extern bool IsEndMp3();
 extern int GetMp3PlayPosition();
 extern unsigned int GenID();

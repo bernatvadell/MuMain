@@ -488,6 +488,7 @@ void SetEffectVolumeLevel(int level)
     {
         long vol = -2000 * log10(10.f / float(level));
         SetMasterVolume(vol);
+        SetVolumeLevel(level * 10);
     }
 }
 
